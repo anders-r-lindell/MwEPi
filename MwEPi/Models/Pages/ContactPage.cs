@@ -12,7 +12,7 @@ namespace MwEPi.Models.Pages
     /// </summary>
     [SiteContentType(
         GUID = "F8D47655-7B50-4319-8646-3369BA9AF05B",
-        GroupName = Global.GroupNames.Specialized)]
+        GroupName = Global.GroupNames._Specialized)]
     [SiteImageUrl(Global.StaticGraphicsFolderPath + "page-type-thumbnail-contact.png")]
     public class ContactPage : SitePageData, IContainerPage
     {

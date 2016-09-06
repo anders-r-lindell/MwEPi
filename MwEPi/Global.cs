@@ -22,17 +22,17 @@ namespace MwEPi
             [Display(Name = "Metadata_", Order = 3)]
             public const string _MetaData = "Metadata_";
 
-            [Display(Name = "News", Order = 4)]
-            public const string News = "News";
+            [Display(Name = "News_", Order = 4)]
+            public const string _News = "News_";
 
-            [Display(Name = "Products", Order = 5)]
-            public const string Products = "Products";
+            [Display(Name = "Products_", Order = 5)]
+            public const string _Products = "Products_";
 
-            [Display(Name = "SiteSettings", Order = 6)]
-            public const string SiteSettings = "SiteSettings";
+            [Display(Name = "SiteSettings_", Order = 6)]
+            public const string _SiteSettings = "SiteSettings_";
 
-            [Display(Name = "Specialized", Order = 7)]
-            public const string Specialized = "Specialized";
+            [Display(Name = "Specialized_", Order = 7)]
+            public const string _Specialized = "Specialized_";
         }
 
         /// <summary>

@@ -16,8 +16,8 @@ namespace MwEPi
             [Display(Name = "Contact_", Order = 1)]
             public const string _Contact = "Contact_";
 
-            [Display(Name = "Default", Order = 2)]
-            public const string Default = "Default";
+            [Display(Name = "Default_", Order = 2)]
+            public const string _Default = "Default_";
 
             [Display(Name = "Metadata", Order = 3)]
             public const string MetaData = "Metadata";

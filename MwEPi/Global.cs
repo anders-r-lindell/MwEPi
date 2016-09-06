@@ -13,26 +13,26 @@ namespace MwEPi
         [GroupDefinitions()]
         public static class GroupNames
         {
-            [Display(Name = "Contact_", Order = 1)]
-            public const string _Contact = "Contact_";
+            [Display(Name = "Contact", Order = 1)]
+            public const string Contact = "Contact";
 
-            [Display(Name = "Default_", Order = 2)]
-            public const string _Default = "Default_";
+            [Display(Name = "Default", Order = 2)]
+            public const string Default = "Default";
 
-            [Display(Name = "Metadata_", Order = 3)]
-            public const string _MetaData = "Metadata_";
+            [Display(Name = "Metadata", Order = 3)]
+            public const string MetaData = "Metadata";
 
-            [Display(Name = "News_", Order = 4)]
-            public const string _News = "News_";
+            [Display(Name = "News", Order = 4)]
+            public const string News = "News";
 
-            [Display(Name = "Products_", Order = 5)]
-            public const string _Products = "Products_";
+            [Display(Name = "Products", Order = 5)]
+            public const string Products = "Products";
 
-            [Display(Name = "SiteSettings_", Order = 6)]
-            public const string _SiteSettings = "SiteSettings_";
+            [Display(Name = "SiteSettings", Order = 6)]
+            public const string SiteSettings = "SiteSettings";
 
-            [Display(Name = "Specialized_", Order = 7)]
-            public const string _Specialized = "Specialized_";
+            [Display(Name = "Specialized", Order = 7)]
+            public const string Specialized = "Specialized";
         }
 
         /// <summary>

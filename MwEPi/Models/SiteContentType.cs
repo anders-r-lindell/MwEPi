@@ -9,7 +9,7 @@ namespace MwEPi.Models
     {
         public SiteContentType()
         {
-            GroupName = Global.GroupNames._Default;
+            GroupName = Global.GroupNames.Default;
         }
     }
 }

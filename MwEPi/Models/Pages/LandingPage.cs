@@ -10,7 +10,7 @@ namespace MwEPi.Models.Pages
     /// </summary>
     [SiteContentType(
        GUID = "DBED4258-8213-48DB-A11F-99C034172A54",
-       GroupName = Global.GroupNames._Specialized)]
+       GroupName = Global.GroupNames.Specialized)]
     [SiteImageUrl]
     public class LandingPage : SitePageData
     {

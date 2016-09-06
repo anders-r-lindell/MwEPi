@@ -12,7 +12,7 @@ namespace MwEPi.Models.Pages
     /// </summary>
     [ContentType(
         GUID = "19671657-B684-4D95-A61F-8DD4FE60D559",
-        GroupName = Global.GroupNames._Specialized)]
+        GroupName = Global.GroupNames.Specialized)]
     [SiteImageUrl]
     [AvailableContentTypes(
         Availability.Specific,
@@ -26,28 +26,28 @@ namespace MwEPi.Models.Pages
         [CultureSpecific]
         public virtual ContentArea MainContentArea { get; set; }
 
-        [Display(GroupName = Global.GroupNames._SiteSettings, Order = 300)]
+        [Display(GroupName = Global.GroupNames.SiteSettings, Order = 300)]
         public virtual LinkItemCollection ProductPageLinks { get; set; }
 
-        [Display(GroupName = Global.GroupNames._SiteSettings, Order = 350)]
+        [Display(GroupName = Global.GroupNames.SiteSettings, Order = 350)]
         public virtual LinkItemCollection CompanyInformationPageLinks { get; set; }
 
-        [Display(GroupName = Global.GroupNames._SiteSettings, Order = 400)]
+        [Display(GroupName = Global.GroupNames.SiteSettings, Order = 400)]
         public virtual LinkItemCollection NewsPageLinks { get; set; }
 
-        [Display(GroupName = Global.GroupNames._SiteSettings, Order = 450)]
+        [Display(GroupName = Global.GroupNames.SiteSettings, Order = 450)]
         public virtual LinkItemCollection CustomerZonePageLinks { get; set; }
 
-        [Display(GroupName = Global.GroupNames._SiteSettings)]
+        [Display(GroupName = Global.GroupNames.SiteSettings)]
         public virtual PageReference GlobalNewsPageLink { get; set; }
 
-        [Display(GroupName = Global.GroupNames._SiteSettings)]
+        [Display(GroupName = Global.GroupNames.SiteSettings)]
         public virtual PageReference ContactsPageLink { get; set; }
 
-        [Display(GroupName = Global.GroupNames._SiteSettings)]
+        [Display(GroupName = Global.GroupNames.SiteSettings)]
         public virtual PageReference SearchPageLink { get; set; }
 
-        [Display(GroupName = Global.GroupNames._SiteSettings)]
+        [Display(GroupName = Global.GroupNames.SiteSettings)]
         public virtual SiteLogotypeBlock SiteLogotype { get; set; }
 
     }

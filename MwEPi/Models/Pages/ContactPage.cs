@@ -16,14 +16,14 @@ namespace MwEPi.Models.Pages
     [SiteImageUrl(Global.StaticGraphicsFolderPath + "page-type-thumbnail-contact.png")]
     public class ContactPage : SitePageData, IContainerPage
     {
-        [Display(GroupName = Global.GroupNames.Contact)]
+        [Display(GroupName = Global.GroupNames._Contact)]
         [UIHint(UIHint.Image)]
         public virtual ContentReference Image { get; set; }
 
-        [Display(GroupName = Global.GroupNames.Contact)]
+        [Display(GroupName = Global.GroupNames._Contact)]
         public virtual string Phone { get; set; }
         
-        [Display(GroupName = Global.GroupNames.Contact)]
+        [Display(GroupName = Global.GroupNames._Contact)]
         [Business.EmailAddress]
         public virtual string Email { get; set; }
     }

@@ -13,8 +13,8 @@ namespace MwEPi
         [GroupDefinitions()]
         public static class GroupNames
         {
-            [Display(Name = "Contact", Order = 1)]
-            public const string Contact = "Contact";
+            [Display(Name = "Contact_", Order = 1)]
+            public const string _Contact = "Contact_";
 
             [Display(Name = "Default", Order = 2)]
             public const string Default = "Default";

@@ -14,7 +14,7 @@ namespace MwEPi.Models.Pages
     public abstract class SitePageData : PageData, ICustomCssInContentArea
     {
         [Display(
-            GroupName = Global.GroupNames.MetaData,
+            GroupName = Global.GroupNames._MetaData,
             Order = 100)]
         [CultureSpecific]
         public virtual string MetaTitle
@@ -32,21 +32,21 @@ namespace MwEPi.Models.Pages
         }
 
         [Display(
-            GroupName = Global.GroupNames.MetaData,
+            GroupName = Global.GroupNames._MetaData,
             Order = 200)]
         [CultureSpecific]
         [BackingType(typeof(PropertyStringList))]
         public virtual string[] MetaKeywords { get; set; }
 
         [Display(
-            GroupName = Global.GroupNames.MetaData,
+            GroupName = Global.GroupNames._MetaData,
             Order = 300)]
         [CultureSpecific]
         [UIHint(UIHint.LongString)]
         public virtual string MetaDescription { get; set; }
 
         [Display(
-            GroupName = Global.GroupNames.MetaData,
+            GroupName = Global.GroupNames._MetaData,
             Order = 400)]
         [CultureSpecific]
         public virtual bool DisableIndexing { get; set; }

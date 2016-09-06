@@ -19,8 +19,8 @@ namespace MwEPi
             [Display(Name = "Default_", Order = 2)]
             public const string _Default = "Default_";
 
-            [Display(Name = "Metadata", Order = 3)]
-            public const string MetaData = "Metadata";
+            [Display(Name = "Metadata_", Order = 3)]
+            public const string _MetaData = "Metadata_";
 
             [Display(Name = "News", Order = 4)]
             public const string News = "News";

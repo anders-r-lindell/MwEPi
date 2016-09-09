@@ -1,2 +1,3 @@
 language: csharp
 solution: MwEPi.sln
+on: master

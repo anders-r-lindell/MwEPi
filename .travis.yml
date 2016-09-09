@@ -1,3 +1,6 @@
 language: csharp
 solution: MwEPi.sln
-on: master
+deploy:
+  provider: azure_web_apps
+  verbose: true
+  on: master
